@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+header {
+    background-color: #00264d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.logo {
+    max-width: 120px;
+    display: block;
+    margin: 0 auto 10px;
+}
+nav a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.presentacion {
+    padding: 2rem;
+    background-color: #e6f0ff;
+    text-align: center;
+}
+#productos {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.producto {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.precio {
+    color: green;
+    font-weight: bold;
+}
+#contacto {
+    background-color: #e6f0ff;
+    padding: 2rem;
+}
+.redes a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #003366;
+}
+footer {
+    background-color: #00264d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
