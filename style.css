@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -57,10 +56,11 @@ nav a {
     background-color: #e6f0ff;
     padding: 2rem;
 }
+.redes {
+    margin-top: 1rem;
+}
 .redes a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: #003366;
+    margin: 0 10px;
 }
 footer {
     background-color: #00264d;
